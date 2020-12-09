@@ -8,6 +8,11 @@
 
 }
 
+body
+{
+	background-color: #E4E7E7;
+}
+
 h1
 {
 	color:#00b894; 
@@ -24,4 +29,5 @@ p
 #relatif
 {
 	font-size: 1.4em;
+	font-family: 'sofiapro-light', Arial, serif;
 }
