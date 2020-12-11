@@ -31,3 +31,13 @@ p
 	font-size: 1.4em;
 	font-family: 'sofiapro-light', Arial, serif;
 }
+
+a:hover
+{
+	color:#636e72;
+}
+
+a:visited
+{
+	color:#2d3436;
+}
