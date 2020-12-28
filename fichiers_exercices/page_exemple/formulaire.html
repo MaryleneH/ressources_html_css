@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form method="POST">
+    <label for="prenom">Prénom </label>
+    <input type="text" id="prenom" placeholder="Ex : Marylène" autofocus></input>
+    <br/>
+    <br/>
+    <label for="pass">Mot de passe</label>
+    <input type="password" id="pass"></input>
+    <br/>
+    <br/>
+
+    <label for ="aire">Quelle est votre opinion ?</label><br/>
+    <textarea id = "aire"></textarea>
+    <br/>
+    <br/>
+    <label for="curseur">Un curseur</label>
+    <input type="range" min = "0" max="100"/>
+    <br/>
+    <br/>
+    <label for="couleur">Choisissez une couleur</label>
+    <input id = "couleur" type="color"/>
+    <br/>
+    <br/>
+    <label for="date">Choisir une date</label>
+    <input type="date" value="12/03/2020">
+    <br/>
+    <br/>
+    <label for="boite">Une boîte à cocher</label>
+    <input type="checkbox" checked/>
+    <br/>
+    <br/>
+    <fieldset>
+        <legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
+ 
+        <label for="nom">Quel est votre nom ?</label>
+        <input type="text" name="nom" id="nom" /><br/>
+        <br/>
+        <label for="prenom">Quel est votre prénom ?</label>
+        <input type="text" name="prenom" id="prenom" /><br/>
+        <br/>
+        <label for="email">Quel est votre e-mail ?</label>
+        <input type="email" name="email" id="email" /><br/>
+        <br/>
+        <input type="submit" value="Envoyer"/>
+    </fieldset>
+</form>
+</body>
+</html>
